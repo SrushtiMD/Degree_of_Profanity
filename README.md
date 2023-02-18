@@ -8,8 +8,7 @@
 
 ### Code
 
-`
-import string
+```import string
 
 # set of racial slurs
 racial_slurs = {'word1', 'word2', 'word3'}
@@ -29,6 +28,5 @@ with open('/content/drive/MyDrive/assignment/tweets.txt', 'r') as f:
             print(f'Sentence: {sentence.strip()}')
             print(f'Degree of Profanity: {degree_of_profanity}%')
             print()
-`
+```
 
-This code reads a file named 'tweets.txt', which is assumed to contain Twitter tweets. Each tweet is split into sentences using periods as separators. For each sentence, the calculate_degree_of_profanity() function is called to determine the degree of profanity. The function converts the sentence to lowercase, removes punctuation, and splits it into words. It then counts the number of words that are in the set of racial slurs and calculates the degree of profanity as a percentage. The output displays the sentence and the degree of profanity as a percentage.
