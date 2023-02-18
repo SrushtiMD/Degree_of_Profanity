@@ -30,3 +30,7 @@ with open('/content/drive/MyDrive/assignment/tweets.txt', 'r') as f:
             print()
 ```
 
+### Description
+
+This code reads a file named 'tweets.txt', which is assumed to contain Twitter tweets. Each tweet is split into sentences using periods as separators. For each sentence, the calculate_degree_of_profanity() function is called to determine the degree of profanity. The function converts the sentence to lowercase, removes punctuation, and splits it into words. It then counts the number of words that are in the set of racial slurs and calculates the degree of profanity as a percentage. The output displays the sentence and the degree of profanity as a percentage.
+
